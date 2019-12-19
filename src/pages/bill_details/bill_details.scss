@@ -1,0 +1,76 @@
+.myflex{    
+    display: flex;
+    justify-content: space-between;
+}
+.bill-details{
+    background:#f9f9f9;
+    padding-bottom:20Px;
+}
+.bill-total{
+    width:95%;
+    background:#fff;
+    border-radius:15Px;
+    margin: 10Px auto;
+    text-align: center;
+    padding:15Px 0;
+}
+.total-des{
+    width:90%;
+    margin: 0 auto;
+}
+.bill-tnum{
+    margin-top:25Px;
+    padding:25Px 0;
+    border-top:1px solid #e6e6e6;
+    @extend .myflex
+}
+.bill-tnum-des{
+    flex:1;
+}
+.font-bold{
+    font-weight: bold;
+}
+.color1{
+    color:#aaa;
+}
+.color2{    
+    color:#000;
+}
+.color3{
+    color: rgb(20,176,255);
+}
+.color4{
+    color: rgb(255,150,69);
+}
+.font-size0{
+    font-size: 14Px;
+}
+.font-size1{
+    font-size: 16Px;
+}
+.font-size2{
+    font-size: 18Px;
+}
+.bill-list-title{
+    width:90%;
+    margin:15Px auto;
+}
+.title-des{
+    @extend .myflex
+}
+.list-l{
+    width:90%;
+    margin:0 auto;
+    margin-bottom: 25Px;
+}
+.list-c{    
+    @extend .myflex
+}
+.bottom-total{
+    width:90%;
+    padding:10Px 0;
+    margin:0 auto;
+    border-top:1px solid #ccc;
+    background:#fff;
+    @extend .myflex
+}

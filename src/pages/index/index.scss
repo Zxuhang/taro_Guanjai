@@ -1,0 +1,73 @@
+
+.top{
+    background:#fff;
+}
+.tabs{
+    margin-top:2Px;
+}
+.tab{
+    background: rgb(250, 251, 252);
+}
+.title{
+    text-align: center;
+    font-size:18Px;
+    font-weight: bold;
+    padding:10px 0;
+}
+
+.desc{
+    padding:10Px 0;
+    background:#fff;
+}
+.des{
+    display:flex;
+    justify-content:space-between;
+    font-size:14Px;
+    padding:3Px 15Px;
+}
+.d-title{
+    color:#ababab;
+    text-align: left;
+}
+.d-cont{
+    color:#000;
+    text-align: right;
+}
+.list{
+    background:#fff;
+    margin-top:10Px;
+    margin-bottom:20Px;
+}
+.bill-list{
+    background:#fff;
+}
+.bill-list h3{
+    margin:5Px 0;
+    margin-left: 10Px;
+    padding:5Px 0;
+    border-bottom:1px solid #dadada;
+}
+.bill-item{
+    padding:10Px;
+}
+.b-i-top{
+    display:flex;
+    justify-content: space-between;
+}
+.b-i-t{
+    font-size:18Px;
+    font-weight: bold;
+}
+.b-i-c1{
+    font-size:18Px;
+    font-weight: bold;
+    color:#ababab;
+}
+.b-i-c2{
+    font-size:18Px;
+    font-weight: bold;
+}
+.b-i-bottom{
+    font-size:14Px;
+    color:#ababab;
+}

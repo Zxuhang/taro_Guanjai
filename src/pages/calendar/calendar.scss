@@ -1,0 +1,80 @@
+.top{
+    background:#fff;
+}
+.tabs{
+    margin-top:2Px;
+}
+.title{
+    text-align: center;
+    font-size:18Px;
+    font-weight: bold;
+    padding:10px 0;
+}
+.calendar {
+    width: 100%;
+  }
+  .calendar .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 12px;
+    font-size:16Px;
+  }
+  .calendar .calendar-body .week-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // margin-bottom: 10px;
+  }
+  .calendar .calendar-body .week-container .week {
+    width: 14.2%;
+    display: inline-block;
+    text-align: center;
+    font-size:16Px;
+    border-top:1Px solid #e6e6e6;
+    border-bottom:1Px solid #e6e6e6;
+  }
+  // .calendar .calendar-body .week-container .week:nth-child(6),
+  // .calendar .calendar-body .week-container .week:nth-child(7) {
+  //   color: #e02d2d;
+  // }
+  .calendar .calendar-body .day-container {
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .calendar .calendar-body .day-container .day {
+    width: 14.2%;
+    font-size:14Px;
+    min-height:70Px;
+    padding:5Px 0;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    // background:red;
+    box-sizing: border-box;
+    border-left:1Px solid #e6e6e6;
+    border-bottom:1Px solid #e6e6e6;
+  }
+  .calendar .calendar-body .day-container .past{//---------------过去的时间
+    background: #f8f8f8;
+  }
+  .calendar .calendar-body .day-container .info{//---------------有信息的时间
+    border-top:2Px solid rgb(255,150,69);
+    background:rgb(253, 236, 222);
+  }
+  .calendar .calendar-body .day-container .day:nth-child(7n+1) {
+    border-left:0px;
+  }
+  // .calendar .calendar-body .day-container .day:nth-child(7n-1) {
+  //   color: #e02d2d;
+  // }
+  // .calendar .calendar-body .day-container .day:nth-child(7n) {
+  //   color: #e02d2d;
+  // }
+  .calendar .calendar-body .day-container .day.today {
+    color: green;
+  }
+  
